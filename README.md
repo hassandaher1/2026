@@ -32,6 +32,27 @@ cd 2026
 
 That's it! No build process or dependencies required.
 
+## Project Structure
+
+```
+2026/
+├── assets/          # Images and icons
+│   ├── favicon.svg
+│   ├── icon-192.png
+│   └── icon-512.png
+├── css/             # Stylesheets
+│   └── styles.css
+├── js/              # JavaScript files
+│   ├── script.js
+│   └── sw.js        # Service Worker for PWA
+├── scripts/         # Development tools (optional)
+│   └── generate_icons.py
+├── index.html       # Main HTML file
+├── manifest.json    # PWA manifest
+├── README.md        # Documentation
+└── SECURITY.md      # Security information
+```
+
 ## Usage
 
 1. Click on any day in the calendar to add activities
